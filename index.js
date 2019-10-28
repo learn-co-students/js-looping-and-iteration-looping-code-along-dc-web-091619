@@ -14,7 +14,7 @@ function writeCards(array, adjective) {
 writeCards(array, adjective);
 
 function countDown(num) {
-  i = num;
+  let i = num;
 
   while (i >= 0) {
     console.log(i);
